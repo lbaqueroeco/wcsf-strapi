@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workshops",
+  "info": {
+    "name": "workshops"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

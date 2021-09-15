@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registers",
+  "info": {
+    "name": "registers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "document": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "paid": {
+      "type": "integer"
+    }
+  }
+}

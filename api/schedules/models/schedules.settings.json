@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedules",
+  "info": {
+    "name": "schedules"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "auditorium": {
+      "type": "string"
+    },
+    "hora": {
+      "type": "string"
+    },
+    "evento": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

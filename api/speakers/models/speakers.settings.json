@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "speakers",
+  "info": {
+    "name": "speakers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twtter": {
+      "type": "string"
+    },
+    "acercade": {
+      "type": "text"
+    }
+  }
+}
